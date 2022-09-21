@@ -1,0 +1,1712 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+header{
+    /* background: linear-gradient(90deg, rgba(198,176,76,1) 43%, rgba(238,206,60,1) 50%, rgba(48,62,117,1) 78%); */
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+.logo_img img{
+    height: 2rem;
+    width: 2rem;
+}
+.nav1{
+    list-style: none;
+    color:white !important;
+}
+.navbar-toggler{
+    height: 20px;
+    width:20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+ .navbar-toggler-icon:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border:0 !important;
+}
+.navbar-toggler span{
+    margin:0px;
+    padding:0px;
+}
+.toggler-icon{
+    height: 3px;
+    width: 100%;
+    display: block;
+    background-color: red;
+    border-radius: 1px;
+    opacity:1;
+    position: absolute;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+ .middle-bar{
+    margin-top: 0px;
+}
+.navbar-toggler .top-bar{
+    margin-top: 0px;
+    transform: rotate(135deg);
+} 
+.navbar-toggler .middle-bar{
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar{
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+/* state of collapsing the navbar */
+.navbar-toggler.collapsed .top-bar{
+    margin-top: -10px;
+    transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+.navbar-toggler.collapsed .bottom-bar{
+    margin-top: 10px;
+    transform: rotate(0deg);
+}
+/* hero */
+.hero_section{
+    background-image: url(img/diyaarulImg18.jpg);
+    height: 40rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.txt1{
+    padding-top: 13rem;
+}
+.heading_line{
+    color: #0d469f;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.heading_line1{
+    color: #fdd82e;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 1.5rem;
+}
+.btn1{
+    background-color: #0d469f;
+    color: white;
+    height: 60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.btn2{
+    background-color: #0d469f;
+    color: white;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    margin-top: 1.5rem;
+    border-radius: .5rem;
+}
+.btn2:hover{
+    background-color:#fdd82e;
+}
+.article_course img{
+    width: 100%;
+  }
+  .article_course{
+    background:transparent;
+    border:2px solid #fdd82e;
+    text-align: left; 
+    /* padding: 1rem; */
+  }
+  .article_course:hover{
+    background: transparent;
+    border-color:#6c63ff;
+  }
+  .courses_text{
+    padding: 3rem;
+  }
+  .courses_text p{
+    font-size: 0.9rem;
+    /* margin: 1rem 0 2rem; */
+  }
+
+.main_row{
+    background-image:
+    linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
+    url('img/kaaba4.jpg');
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4rem;
+}
+.countDownEvents{
+    height: 20rem;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: white;
+}
+.countDownEvents h5{
+    text-align: center;
+    padding-top: 2rem;
+    color: #0d469f;
+}
+.event_counter{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    text-align: center;
+}
+.day, .hour, .min, .sec{
+    font-size: 1.5rem;
+}
+.events{
+    padding-top: 7rem;
+}
+.events_text{
+    color: white;
+    padding-top: 3rem;
+
+}
+.event_text{
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.btn_divs{
+    align-items: center;
+    text-align: center;
+    padding-top: 1.5rem;
+    display: inline-flex;
+    margin-left: 5rem;
+    gap: 2rem;
+
+}
+.btn3{
+    height: 60px;
+    width: 10rem;
+    background-color: #6c63ff;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+}
+.btn4{
+    height: 60px;
+    width: 10rem;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: 1px solid #fdd82e;
+    border-radius: 1rem;
+}
+.day, .hour, .min, .sec{
+    height: 60px;
+    width: 50px;
+    border: 2px solid #6c63ff;
+    border-radius: .5rem;
+    padding-top: 15px;
+}
+.course{
+    background:transparent;
+    border:2px solid #6c63ff;
+    border-radius: 0.5rem;
+    height:23rem;
+    align-items: center;
+    text-align: center;
+}
+.course_text p{
+    margin:1rem;
+    color: blue;
+}
+.course_text h5{
+    padding-top: 1rem;
+    color: #0d469f;
+}
+.course_img img{
+    width:100%;
+}
+.event_text{
+    color:#0d469f
+}
+.event_slide{
+    margin-top: 3rem;
+}
+.main_EventSlide{
+    text-align: center;
+    color: #0d469f;
+}
+/* Testimonial */
+.testimonal{
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+    width:90%;
+    margin: 20px auto;
+}
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 30rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .testimony{
+    padding-top: 3rem;
+  }
+  .img{
+    width: 6rem;
+    height: 6rem;
+    object-fit: contain;
+    margin: 0px auto;
+  }
+  .img img{
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    border: 1rem solid #cacdebd6;
+  }
+  .test_info{
+    text-align: center;
+    align-items: center;
+    color: white;
+  }
+  .main_testimony{
+    color: white;
+    background: linear-gradient(90deg, rgba(198,176,76,1) 43%, rgba(238,206,60,1) 50%, rgba(48,62,117,1) 78%);
+    padding: 1rem;
+    margin-top: 3rem;
+    position: relative;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 50%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+.footer{
+    background-color: rgba(255, 255, 255, 0.087);
+    height: 20rem;
+}
+.foot{
+    padding-top: 3rem;
+}
+/* responsiveness */
+@media  (min-width:250px) and (max-width:300px) {
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 5rem;
+    }
+    .heading_line{
+        color: #0d469f;
+        font-size: 20px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        color: #fdd82e;
+        font-size: 15px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        background-color: #0d469f;
+        color: white;
+        height: 60px;
+        width: 100%;
+        outline: none;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+    /* course */
+    .article_course img{
+        width: 100%;
+      }
+      .article_course{
+        background:transparent;
+        border:2px solid #fdd82e;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem !important;
+      }
+      .article_course:hover{
+        background: transparent;
+        border-color:#6c63ff;
+      }
+      .courses_text{
+        padding: 3rem;
+        word-wrap: break-word;
+      }
+      .courses_text p{
+        font-size: 0.9rem;
+        word-wrap: break-word;
+        text-align: start;
+        margin: .5rem 0 2rem .5rem;
+      }
+      .courses_1 h3{
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 1rem;
+        word-wrap: break-word;
+      }
+      .courses_1 p{
+        font-size: 15px;
+        margin-top: .5rem;
+        word-wrap: break-word;
+      }
+      /* event */
+      .event{
+        margin-bottom: 10rem;
+      }
+      .main_row{
+        background-image:
+        linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
+        url('img/kaaba4.jpg');
+        width: 100%;
+        height: 25rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin-top:2rem !important; */
+    }
+    .countDownEvents{
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: white;
+        margin-bottom: 10rem !important;
+    }
+    .countDownEvents h5{
+        text-align: center;
+        padding-top: 2rem;
+        color: #0d469f;
+    }
+    .event_counter{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .day, .hour, .min, .sec{
+        font-size: 1.5rem;
+    }
+    .events{
+        padding-top: 7rem;
+    }
+    .events_text{
+        color: white;
+        padding-top: 1rem;
+        word-wrap: break-word;
+    }
+    .event_text{
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 15px;
+       
+    }
+    .btn_divs{
+        align-items: center;
+        text-align: center;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-right: 7rem;
+        gap: 2rem;
+    }
+    .btn3{
+        height: 60px;
+        width: 10rem;
+        background-color: #6c63ff;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+    }
+    .btn4{
+        height: 60px;
+        width: 10rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid #fdd82e;
+        border-radius: 1rem;
+    }
+    .day, .hour, .min, .sec{
+        height: 60px;
+        width: 50px;
+        border: 2px solid #6c63ff;
+        border-radius: .5rem;
+        padding-top: 15px;
+    }
+    /* events */
+    .course{
+        background:transparent;
+        border:2px solid #6c63ff;
+        border-radius: 0.5rem;
+        height:23rem;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem !important;
+    }
+    .course_text p{
+        margin:1rem;
+        color: blue;
+    }
+    .course_text h5{
+        padding-top: 1rem;
+        color: #0d469f;
+    }
+    .course_img img{
+        width:100%;
+    }
+    .event_text{
+        color:#0d469f
+    }
+    .event_slide{
+        margin-top: 3rem;
+    }
+    .main_EventSlide{
+        text-align: center;
+        color: #0d469f;
+        padding-top: 10em !important;
+    }
+
+    /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 50rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+    }
+    .footer1 h4{
+        margin-left:5rem !important;
+        text-align: center;
+    }
+}
+@media   (min-width:301px) and (max-width:370px){
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 5rem;
+    }
+    .heading_line{
+        color: #0d469f;
+        font-size: 20px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        color: #fdd82e;
+        font-size: 15px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        background-color: #0d469f;
+        color: white;
+        height: 60px;
+        width: 100%;
+        outline: none;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+     /* course */
+     .article_course img{
+        width: 100%;
+      }
+      .article_course{
+        background:transparent;
+        border:2px solid #fdd82e;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem !important;
+      }
+      .article_course:hover{
+        background: transparent;
+        border-color:#6c63ff;
+      }
+      .courses_text{
+        padding: 3rem;
+        word-wrap: break-word;
+      }
+      .courses_text p{
+        font-size: 1rem;
+        word-wrap: break-word;
+        text-align: start;
+        margin: .5rem 0 2rem .5rem;
+      }
+      .courses_1 h3{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 1rem;
+        word-wrap: break-word;
+      }
+      .courses_1 p{
+        font-size: 15px;
+        margin-top: .5rem;
+        word-wrap: break-word;
+      }
+         /* event */
+         .event{
+            margin-bottom: 10rem;
+          }
+          .main_row{
+            background-image:
+            linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
+            url('img/kaaba4.jpg');
+            width: 100%;
+            height: 25rem;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* margin-top:2rem !important; */
+        }
+        .countDownEvents{
+            height: 20rem;
+            width: 100%;
+            border-radius: 1rem;
+            background-color: white;
+            margin-bottom: 10rem !important;
+        }
+        .countDownEvents h5{
+            text-align: center;
+            padding-top: 2rem;
+            color: #0d469f;
+        }
+        .event_counter{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 2rem;
+            text-align: center;
+        }
+        .day, .hour, .min, .sec{
+            font-size: 1.5rem;
+        }
+        .events{
+            padding-top: 7rem;
+        }
+        .events_text{
+            color: white;
+            padding-top: 1rem;
+            word-wrap: break-word;
+        }
+        .event_text{
+            text-align: center;
+            align-items: center;
+            margin-top: 2rem;
+            font-size: 15px;
+           
+        }
+        .btn_divs{
+            align-items: center;
+            text-align: center;
+            padding-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            margin-right: 7rem;
+            gap: 2rem;
+        }
+        .btn3{
+            height: 60px;
+            width: 10rem;
+            background-color: #6c63ff;
+            color: white;
+            outline: none;
+            border: none;
+            border-radius: 1rem;
+        }
+        .btn4{
+            height: 60px;
+            width: 10rem;
+            background-color: white;
+            color: black;
+            outline: none;
+            border: 1px solid #fdd82e;
+            border-radius: 1rem;
+        }
+        .day, .hour, .min, .sec{
+            height: 60px;
+            width: 50px;
+            border: 2px solid #6c63ff;
+            border-radius: .5rem;
+            padding-top: 15px;
+        }
+        /* events */
+        .course{
+            background:transparent;
+            border:2px solid #6c63ff;
+            border-radius: 0.5rem;
+            height:23rem;
+            align-items: center;
+            text-align: center;
+            margin-top: 3rem !important;
+        }
+        .course_text p{
+            margin:1rem;
+            color: blue;
+        }
+        .course_text h5{
+            padding-top: 1rem;
+            color: #0d469f;
+        }
+        .course_img img{
+            width:100%;
+        }
+        .event_text{
+            color:#0d469f
+        }
+        .event_slide{
+            margin-top: 3rem;
+        }
+        .main_EventSlide{
+            text-align: center;
+            color: #0d469f;
+            padding-top: 10em !important;
+        }
+            /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 40rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+}
+@media   (min-width:371px) and (max-width:499px){
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 7rem;
+    }
+    .heading_line{
+        color: #0d469f;
+        font-size: 25px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        color: #fdd82e;
+        font-size: 15px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        background-color: #0d469f;
+        color: white;
+        height: 60px;
+        width: 70%;
+        outline: none;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+         /* course */
+         .article_course img{
+            width: 100%;
+          }
+          .article_course{
+            background:transparent;
+            border:2px solid #fdd82e;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem !important;
+          }
+          .article_course:hover{
+            background: transparent;
+            border-color:#6c63ff;
+          }
+          .courses_text{
+            padding: 3rem;
+            word-wrap: break-word;
+          }
+          .courses_text p{
+            font-size: 1rem;
+            word-wrap: break-word;
+            text-align: start;
+            margin: .5rem 0 2rem .5rem;
+          }
+          .courses_1 h3{
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 1rem;
+            word-wrap: break-word;
+          }
+          .courses_1 p{
+            font-size: 15px;
+            margin-top: .5rem;
+            word-wrap: break-word;
+          }
+             /* event */
+      .event{
+        margin-bottom: 10rem;
+      }
+      .main_row{
+        background-image:
+        linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
+        url('img/kaaba4.jpg');
+        width: 100%;
+        height: 25rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin-top:2rem !important; */
+    }
+    .countDownEvents{
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: white;
+        margin-bottom: 10rem !important;
+    }
+    .countDownEvents h5{
+        text-align: center;
+        padding-top: 2rem;
+        color: #0d469f;
+    }
+    .event_counter{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .day, .hour, .min, .sec{
+        font-size: 1.5rem;
+    }
+    .events{
+        padding-top: 7rem;
+    }
+    .events_text{
+        color: white;
+        padding-top: 1rem;
+        word-wrap: break-word;
+    }
+    .event_text{
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 15px;
+       
+    }
+    .btn_divs{
+        align-items: center;
+        text-align: center;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-right: 7rem;
+        gap: 2rem;
+    }
+    .btn3{
+        height: 60px;
+        width: 10rem;
+        background-color: #6c63ff;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+    }
+    .btn4{
+        height: 60px;
+        width: 10rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid #fdd82e;
+        border-radius: 1rem;
+    }
+    .day, .hour, .min, .sec{
+        height: 60px;
+        width: 50px;
+        border: 2px solid #6c63ff;
+        border-radius: .5rem;
+        padding-top: 15px;
+    }
+    /* events */
+    .course{
+        background:transparent;
+        border:2px solid #6c63ff;
+        border-radius: 0.5rem;
+        height:23rem;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem !important;
+    }
+    .course_text p{
+        margin:1rem;
+        color: blue;
+    }
+    .course_text h5{
+        padding-top: 1rem;
+        color: #0d469f;
+    }
+    .course_img img{
+        width:100%;
+    }
+    .event_text{
+        color:#0d469f
+    }
+    .event_slide{
+        margin-top: 3rem;
+    }
+    .main_EventSlide{
+        text-align: center;
+        color: #0d469f;
+        padding-top: 10em !important;
+    }
+        /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 40rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+}
+@media   (min-width:500px) and (max-width:641px){
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 8rem;
+    }
+    .heading_line{
+        color: #0d469f;
+        font-size: 30px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        color: #fdd82e;
+        font-size: 20px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        background-color: #0d469f;
+        color: white;
+        height: 60px;
+        width: 50%;
+        outline: none;
+        border: none;
+        margin-top: 1.5rem;
+        border-radius: 1rem;
+    }
+        /* course */
+        .article_course img{
+            width: 100%;
+          }
+          .article_course{
+            background:transparent;
+            border:2px solid #fdd82e;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem !important;
+          }
+          .article_course:hover{
+            background: transparent;
+            border-color:#6c63ff;
+          }
+          .courses_text{
+            padding: 3.5rem;
+            word-wrap: break-word;
+          }
+          .courses_text p{
+            font-size: 1rem;
+            word-wrap: break-word;
+            text-align: start;
+            margin: .5rem 0 2rem .5rem;
+          }
+          .courses_1 h3{
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 1rem;
+            word-wrap: break-word;
+          }
+          .courses_1 p{
+            font-size: 15px;
+            margin-top: .5rem;
+            word-wrap: break-word;
+        }
+           /* event */
+      .event{
+        margin-bottom: 10rem;
+      }
+      .main_row{
+        background-image:
+        linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
+        url('img/kaaba4.jpg');
+        width: 100%;
+        height: 25rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin-top:2rem !important; */
+    }
+    .countDownEvents{
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: white;
+        /* margin-bottom: 10rem !important; */
+    }
+    .countDownEvents h5{
+        text-align: center;
+        padding-top: 3rem;
+        color: #0d469f;
+    }
+    .event_counter{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .day, .hour, .min, .sec{
+        font-size: 1.5rem;
+    }
+    .events{
+        padding-top: 7rem;
+    }
+    .events_text{
+        color: white;
+        padding-top: 1rem;
+        word-wrap: break-word;
+    }
+    .event_text{
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 15px;
+       
+    }
+    .btn_divs{
+        align-items: center;
+        text-align: center;
+        padding-top: 2rem;
+        display: inline-flex;
+        margin-right: 7rem;
+        gap: 2rem;
+    }
+    .btn3{
+        height: 60px;
+        width: 10rem;
+        background-color: #6c63ff;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+    }
+    .btn4{
+        height: 60px;
+        width: 10rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid #fdd82e;
+        border-radius: 1rem;
+    }
+    .day, .hour, .min, .sec{
+        height: 60px;
+        width: 50px;
+        border: 2px solid #6c63ff;
+        border-radius: .5rem;
+        padding-top: 15px;
+    }
+    /* events */
+    .course{
+        background:transparent;
+        border:2px solid #6c63ff;
+        border-radius: 0.5rem;
+        height:30rem;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem !important;
+    }
+    .course_text p{
+        margin:1rem;
+        color: blue;
+    }
+    .course_text h5{
+        padding-top: 1rem;
+        color: #0d469f;
+    }
+    .course_img img{
+        width:100%;
+    }
+    .event_text{
+        color:#0d469f
+    }
+    .event_slide{
+        margin-top: 3rem;
+    }
+    .main_EventSlide{
+        text-align: center;
+        color: #0d469f;
+        padding-top: 10em !important;
+    }
+        /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 40rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+
+}
+@media   (min-width:641px) and (max-width:705px){
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 6rem;
+    }
+    .heading_line{
+        color: #0d469f;
+        font-size: 30px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        color: #fdd82e;
+        font-size: 20px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        background-color: #0d469f;
+        color: white;
+        height: 60px;
+        width: 40%;
+        outline: none;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+        /* course */
+        .article_course img{
+            width: 100%;
+          }
+          .article_course{
+            background:transparent;
+            border:2px solid #fdd82e;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem !important;
+          }
+          .article_course:hover{
+            background: transparent;
+            border-color:#6c63ff;
+          }
+          .courses_text{
+            padding: 3rem;
+            word-wrap: break-word;
+          }
+          .courses_text p{
+            font-size: 1rem;
+            word-wrap: break-word;
+            text-align: start;
+            margin: .5rem 0 2rem .5rem;
+          }
+          .courses_1 h3{
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 1rem;
+            word-wrap: break-word;
+          }
+          .courses_1 p{
+            font-size: 15px;
+            margin-top: .5rem;
+            word-wrap: break-word;
+          }
+                /* event */
+      .event{
+        margin-bottom: 10rem;
+      }
+      .main_row{
+        background-image:
+        linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
+        url('img/kaaba4.jpg');
+        width: 100%;
+        height: 25rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin-top:2rem !important; */
+    }
+    .countDownEvents{
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: white;
+        /* margin-bottom: 10rem !important; */
+    }
+    .countDownEvents h5{
+        text-align: center;
+        padding-top: 3rem;
+        color: #0d469f;
+    }
+    .event_counter{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .day, .hour, .min, .sec{
+        font-size: 1.5rem;
+    }
+    .events{
+        padding-top: 7rem;
+    }
+    .events_text{
+        color: white;
+        padding-top: 1rem;
+        word-wrap: break-word;
+    }
+    .event_text{
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 15px;
+       
+    }
+    .btn_divs{
+        align-items: center;
+        text-align: center;
+        padding-top: 2rem;
+        display: inline-flex;
+        margin-right: 7rem;
+        gap: 2rem;
+    }
+    .btn3{
+        height: 60px;
+        width: 10rem;
+        background-color: #6c63ff;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+    }
+    .btn4{
+        height: 60px;
+        width: 10rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid #fdd82e;
+        border-radius: 1rem;
+    }
+    .day, .hour, .min, .sec{
+        height: 60px;
+        width: 50px;
+        border: 2px solid #6c63ff;
+        border-radius: .5rem;
+        padding-top: 15px;
+    }
+    /* events */
+    .course{
+        background:transparent;
+        border:2px solid #6c63ff;
+        border-radius: 0.5rem;
+        height:30rem;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem !important;
+    }
+    .course_text p{
+        margin:1rem;
+        color: blue;
+    }
+    .course_text h5{
+        padding-top: 1rem;
+        color: #0d469f;
+    }
+    .course_img img{
+        width:100%;
+    }
+    .event_text{
+        color:#0d469f
+    }
+    .event_slide{
+        margin-top: 3rem;
+    }
+    .main_EventSlide{
+        text-align: center;
+        color: #0d469f;
+        padding-top: 10em !important;
+    }
+        /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 40rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+
+}
+@media   (min-width:706px) and (max-width:770px){
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 6rem;
+    }
+    .heading_line{
+        color: #0d469f;
+        font-size: 30px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        color: #fdd82e;
+        font-size: 20px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        background-color: #0d469f;
+        color: white;
+        height: 60px;
+        width: 40%;
+        outline: none;
+        border: none;
+        margin-top: 1.5rem;
+        border-radius: 1rem;
+    }
+        /* course */
+     
+        .article_course img{
+            width: 100%;
+          }
+          .article_course{
+            background:transparent;
+            border:2px solid #fdd82e;
+            width: 100%;
+            text-align: center;
+            padding: 1rem;
+            margin-left: 2rem !important;
+          }
+          .article_course:hover{
+            background: transparent;
+            border-color:#6c63ff;
+          }
+          .courses_text{
+            padding-top: 3rem;
+            word-wrap: break-word;
+          }
+          .courses_text p{
+            font-size: 1rem;
+            word-wrap: break-word;
+            text-align: start;
+            margin: .5rem 0 2rem .5rem;
+          }
+          .courses_1 h3{
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 2rem;
+            word-wrap: break-word;
+          }
+          .courses_1 p{
+            font-size: 15px;
+            margin-top: .5rem;
+            word-wrap: break-word;
+          }
+          .btn2{
+            background-color: #0d469f;
+            color: white;
+            padding: 1rem;
+            outline: none;
+            border: none;
+            margin-top: 5rem;
+            border-radius: .5rem;
+        }
+        .btn2:hover{
+            background-color:#fdd82e;
+        }
+              /* event */
+      .event{
+        margin-bottom: 10rem;
+      }
+      .main_row{
+        background-image:
+        linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
+        url('img/kaaba4.jpg');
+        width: 100%;
+        height: 25rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin-top:2rem !important; */
+    }
+    .countDownEvents{
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: white;
+    }
+    .countDownEvents h5{
+        text-align: center;
+        padding-top: 3rem;
+        color: #0d469f;
+    }
+    .event_counter{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .day, .hour, .min, .sec{
+        font-size: 1.5rem;
+    }
+    .events{
+        padding-top: 7rem;
+    }
+    .events_text{
+        color: white;
+        padding-top: 1rem;
+        word-wrap: break-word;
+    }
+    .event_text{
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 15px;
+       
+    }
+    .btn_divs{
+        align-items: center;
+        text-align: center;
+        padding-top: 2rem;
+        display: inline-flex;
+        margin-right: 7rem;
+        gap: 2rem;
+    }
+    .btn3{
+        height: 60px;
+        width: 10rem;
+        background-color: #6c63ff;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+    }
+    .btn4{
+        height: 60px;
+        width: 10rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid #fdd82e;
+        border-radius: 1rem;
+    }
+    .day, .hour, .min, .sec{
+        height: 60px;
+        width: 50px;
+        border: 2px solid #6c63ff;
+        border-radius: .5rem;
+        padding-top: 15px;
+    }
+    /* events */
+    .course{
+        background:transparent;
+        border:2px solid #6c63ff;
+        border-radius: 0.5rem;
+        height:30rem;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem !important;
+    }
+    .course_text p{
+        margin:1rem;
+        color: blue;
+    }
+    .course_text h5{
+        padding-top: 1rem;
+        color: #0d469f;
+    }
+    .course_img img{
+        width:100%;
+    }
+    .event_text{
+        color:#0d469f
+    }
+    .event_slide{
+        margin-top: 3rem;
+    }
+    .main_EventSlide{
+        text-align: center;
+        color: #0d469f;
+        padding-top: 7rem !important;
+    }
+        /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 35rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+   
+}
+@media   (min-width:771px) and (max-width:991px){
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 6rem;
+    }
+    .heading_line{
+        color: #0d469f;
+        font-size: 30px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        color: #fdd82e;
+        font-size: 20px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        background-color: #0d469f;
+        color: white;
+        height: 60px;
+        width: 30%;
+        outline: none;
+        border: none;
+        margin-top: 1.5rem;
+        border-radius: 1rem;
+    }
+     /* countdonw */
+    .countDownEvents{
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: white;
+    }
+    .btn_divs{
+        align-items: center;
+        text-align: center;
+        padding-top: 2rem;
+        display: inline-flex;
+        margin-left: 1rem;
+    }
+    .btn3{
+        height: 50px;
+        width: 8rem;
+        background-color: #6c63ff;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+    }
+    .btn4{
+        height: 50px;
+        width: 8rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid #fdd82e;
+        border-radius: 1rem;
+    }
+     /* events */
+     .course{
+        background:transparent;
+        border:2px solid #6c63ff;
+        border-radius: 0.5rem;
+        height:40rem !important;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+    .course_text p{
+        margin:1rem;
+        color: blue;
+    }
+    .course_text h5{
+        padding-top: 1rem;
+        color: #0d469f;
+    }
+    .course_img img{
+        width:100%;
+    }
+    .event_text{
+        color:#0d469f
+    }
+    .event_slide{
+        margin-top: 3rem;
+    }
+    .main_EventSlide{
+        text-align: center;
+        color: #0d469f;
+        padding-top: 4rem !important;
+    }
+        /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 35rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+
+}
+
+
+
