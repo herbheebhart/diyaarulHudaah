@@ -5,10 +5,15 @@
     text-decoration: none !important;
     list-style: none;
 }
+.section_hero{
+    background-image: url(img/student2.jpg);
+    height: 40rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 header{
-    /* background: linear-gradient(90deg, rgba(198,176,76,1) 43%, rgba(238,206,60,1) 50%, rgba(48,62,117,1) 78%); */
     background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-
 }
 .logo_img img{
     height: 2rem;
@@ -85,7 +90,7 @@ header{
     background-repeat: no-repeat;
 }
 .txt1{
-    padding-top: 13rem;
+    padding-top: 12rem;
 }
 .heading_line{
     color: #0d469f;
@@ -241,11 +246,17 @@ header{
     color:#0d469f
 }
 .event_slide{
-    margin-top: 3rem;
+    margin-top: 5rem;
+}
+.img_slider1{
+    margin-top: 2rem;
 }
 .main_EventSlide{
     text-align: center;
     color: #0d469f;
+}
+.main_EventSlide p{
+    margin-top: .5rem;
 }
 /* Testimonial */
 .testimonal{
@@ -304,13 +315,44 @@ header{
     top: -1.5rem;
     transform: rotate(45deg);
 }
-.footer{
+/* About us */
+.about{
+    background-image: url(img/diyaarulImg11.jfif);
+    height: 30rem;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.about_sect{
+    margin-top: 7rem;
+}
+.abt_text{
+    padding: 7rem 0 0 4rem;
+    color: #0d469f;
+}
+.numeric{
+    height: 3rem;
+    width: 5rem;
+    padding: .5rem;
+    background-color: #fdd82e;
+    border-radius: 3rem;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    color: #0d469f; 
+}
+.abt_texts{
+    color:#0d469f;
+    margin-top: 4rem;
+}
+footer{
     background-color: rgba(255, 255, 255, 0.087);
     height: 20rem;
+    margin-top: 1.5rem;
 }
-.foot{
+/* .foot{
     padding-top: 3rem;
-}
+} */
 /* responsiveness */
 @media  (min-width:250px) and (max-width:300px) {
     .hero_section{
@@ -521,9 +563,26 @@ header{
     top: -1.5rem;
     transform: rotate(45deg);
     }
-    .footer1 h4{
-        margin-left:5rem !important;
-        text-align: center;
+    /* about us */
+    .about{
+        background-image: url(img/diyaarulImg11.jfif);
+        height: 20rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1.5rem;
+    }
+    .about_sect{
+        margin-top:1.5rem;
+    }
+    .abt_text{
+        padding:1rem  ;
+        color: #0d469f;
+    }
+    .abt_texts{
+        color:#0d469f;
+        margin-top:1rem;
+        padding: 1rem;
     }
 }
 @media   (min-width:301px) and (max-width:370px){
@@ -734,6 +793,27 @@ header{
     top: -1.5rem;
     transform: rotate(45deg);
 }
+/* about us */
+.about{
+    background-image: url(img/diyaarulImg11.jfif);
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.about_sect{
+    margin-top:1.5rem;
+}
+.abt_text{
+    padding:1rem  ;
+    color: #0d469f;
+}
+.abt_texts{
+    color:#0d469f;
+    margin-top:1rem;
+    padding: 1rem;
+}
 }
 @media   (min-width:371px) and (max-width:499px){
     .hero_section{
@@ -943,6 +1023,27 @@ header{
     top: -1.5rem;
     transform: rotate(45deg);
 }
+/* about us */
+.about{
+    background-image: url(img/diyaarulImg11.jfif);
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.about_sect{
+    margin-top:2rem;
+}
+.abt_text{
+    padding:2rem  ;
+    color: #0d469f;
+}
+.abt_texts{
+    color:#0d469f;
+    margin-top:1rem;
+    padding: 2rem;
+}
 }
 @media   (min-width:500px) and (max-width:641px){
     .hero_section{
@@ -1150,6 +1251,27 @@ header{
     left: 40%;
     top: -1.5rem;
     transform: rotate(45deg);
+}
+/* about us */
+.about{
+    background-image: url(img/diyaarulImg11.jfif);
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.about_sect{
+    margin-top:2rem;
+}
+.abt_text{
+    padding:1rem  ;
+    color: #0d469f;
+}
+.abt_texts{
+    color:#0d469f;
+    margin-top:1rem;
+    padding: 2rem;
 }
 
 }
@@ -1359,6 +1481,27 @@ header{
     left: 40%;
     top: -1.5rem;
     transform: rotate(45deg);
+}
+/* about us */
+.about{
+    background-image: url(img/diyaarulImg11.jfif);
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.about_sect{
+    margin-top:3rem;
+}
+.abt_text{
+    padding:2rem  ;
+    color: #0d469f;
+}
+.abt_texts{
+    color:#0d469f;
+    margin-top:1rem;
+    padding: 1rem;
 }
 
 }
@@ -1581,6 +1724,27 @@ header{
     left: 40%;
     top: -1.5rem;
     transform: rotate(45deg);
+}
+/* about us */
+.about{
+    background-image: url(img/diyaarulImg11.jfif);
+    height: 25rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.about_sect{
+    margin-top:2rem;
+}
+.abt_text{
+    padding:1.5rem  ;
+    color: #0d469f;
+}
+.abt_texts{
+    color:#0d469f;
+    margin-top:1rem;
+    padding: 1rem;
 }
    
 }

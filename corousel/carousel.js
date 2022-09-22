@@ -7,7 +7,7 @@ $(".img_slider1 ").owlCarousel({
     autoplayhoverpause:true,
     autoplaytimeout:100,
     items:4,
-    nav:true,
+    nav:false,
     loop:true,
     responsive:{
         0:{
