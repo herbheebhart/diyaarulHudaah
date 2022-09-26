@@ -393,6 +393,42 @@ footer{
 .footer{
     margin-top: 6rem;
 }
+/* FAQ */
+.faq{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    background-color: #6c63ff;
+    /* background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+  
+.question_faq h4{
+    font-size: 1rem;
+    line-height: 2.2;
+  }
+  .icon-faq{
+    align-self: flex-start;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .faq p{
+    margin-top: 0.8rem;
+    display: none;
+  
+  }
+  .faq.open p{
+    display: block;
+  }
+  .faq_heading{
+    text-align: center;
+    padding-top: 3rem;
+    /* display: flex;
+    justify-content: center; */
+  }
 /* responsiveness */
 @media  (min-width:250px) and (max-width:300px) {
     .hero_section{
@@ -642,6 +678,10 @@ footer{
         height:365px;
         width:100%;
     }
+    /* FAQ */
+    .faq{
+        padding: 1rem;
+    }
 }
 @media   (min-width:301px) and (max-width:370px){
     .hero_section{
@@ -890,8 +930,14 @@ footer{
     height:365px;
     width: 100%;
 }
+.faq{
+    padding: 1rem;
+}
 }
 @media   (min-width:371px) and (max-width:499px){
+    .faq{
+        padding: 1.5rem;
+    }
     .hero_section{
         height: 30rem;
         width: 100%;

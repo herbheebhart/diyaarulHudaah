@@ -21,7 +21,19 @@ const countDown = ()=>{
     document.querySelector('.min').innerHTML = textMin
     document.querySelector('.sec').innerHTML = textSec
 
-
-
 }
-setInterval(countDown, 1000)
+setInterval(countDown, 1000);
+// FAQ
+const faq = document.querySelectorAll('.faq')
+faq.forEach((faqs)=>{
+    faqs.addEventListener('click',function(){
+        faqs.classList.toggle('open')
+
+        const icons = faqs.querySelector('.icon-faq i')
+        if(icons.className==="bi bi-plus-lg"){
+            icons.className ="bi bi-dash-lg"
+        } else{
+            icons.className ="bi bi-plus-lg" 
+        }
+    })
+})
