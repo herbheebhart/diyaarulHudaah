@@ -6,11 +6,14 @@
     list-style: none;
 }
 .section_hero{
-    background-image: url(img/student2.jpg);
+    /* background-image: url(img/student2.jpg); */
+    background-image: url(https://media.istockphoto.com/photos/muslim-kids-reading-koran-picture-id149053968?k=20&m=149053968&s=612x612&w=0&h=fjw876xWxsHRqCWTSzPZ3NJk7H1KP0-XJgteKPCl92s=);
     height: 40rem;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
 }
 header{
     background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
@@ -84,10 +87,12 @@ header{
 /* hero */
 .hero_section{
     background-image: url(img/diyaarulImg18.jpg);
-    height: 40rem;
+    height: 120vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
 }
 .txt1{
     padding-top: 12rem;
@@ -317,12 +322,21 @@ header{
 }
 /* About us */
 .about{
-    background-image: url(img/diyaarulImg11.jfif);
+    background-image: url(https://media.istockphoto.com/photos/young-man-who-reads-the-quran-in-the-book-picture-id1282633805?k=20&m=1282633805&s=612x612&w=0&h=9_TTyLBMe8BR9zdNIxVx1xErFSWxFKF08widI7flgwo=);
     height: 30rem;
     width: 50%;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1.5rem;
+}
+.abouts{
+    background-image: url(https://media.istockphoto.com/photos/muslim-children-picture-id147268668?k=20&m=147268668&s=612x612&w=0&h=TQgJacgmQNG1Q_PAqXwgX6kc13X1HU03J7m7p5rViE4=);
+    height: 30rem;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+
 }
 .about_sect{
     margin-top: 7rem;
@@ -381,7 +395,7 @@ footer{
 }
 .map{
     width: 600px;
-    height: 465px;
+    height: 485px;
     background: #fff;
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
