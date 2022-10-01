@@ -7,7 +7,7 @@
 }
 .section_hero{
     /* background-image: url(img/student2.jpg); */
-    background-image: url(https://media.istockphoto.com/photos/muslim-kids-reading-koran-picture-id149053968?k=20&m=149053968&s=612x612&w=0&h=fjw876xWxsHRqCWTSzPZ3NJk7H1KP0-XJgteKPCl92s=);
+    background-image: linear-gradient(to bottom, rgba(23, 23, 24, 0.937), rgba(0, 0, 0, 0.234)),url(https://media.istockphoto.com/photos/muslim-kids-reading-koran-picture-id149053968?k=20&m=149053968&s=612x612&w=0&h=fjw876xWxsHRqCWTSzPZ3NJk7H1KP0-XJgteKPCl92s=);
     height: 40rem;
     width: 100%;
     background-size: cover;
@@ -456,13 +456,11 @@ footer{
         padding-top: 5rem;
     }
     .heading_line{
-        color: #0d469f;
         font-size: 20px;
         font-weight: 900;
         word-wrap: break-word;
     }
     .heading_line1{
-        color: #fdd82e;
         font-size: 15px;
         font-weight: bolder;
         padding-top: 1rem;
@@ -709,13 +707,11 @@ footer{
         padding-top: 5rem;
     }
     .heading_line{
-        color: #0d469f;
         font-size: 20px;
         font-weight: 900;
         word-wrap: break-word;
     }
     .heading_line1{
-        color: #fdd82e;
         font-size: 15px;
         font-weight: bolder;
         padding-top: 1rem;
@@ -963,13 +959,11 @@ footer{
         padding-top: 7rem;
     }
     .heading_line{
-        color: #0d469f;
         font-size: 25px;
         font-weight: 900;
         word-wrap: break-word;
     }
     .heading_line1{
-        color: #fdd82e;
         font-size: 15px;
         font-weight: bolder;
         padding-top: 1rem;
@@ -1211,13 +1205,11 @@ footer{
         padding-top: 8rem;
     }
     .heading_line{
-        color: #0d469f;
         font-size: 30px;
         font-weight: 900;
         word-wrap: break-word;
     }
     .heading_line1{
-        color: #fdd82e;
         font-size: 20px;
         font-weight: bolder;
         padding-top: 1rem;
@@ -1447,13 +1439,11 @@ footer{
         padding-top: 6rem;
     }
     .heading_line{
-        color: #0d469f;
         font-size: 30px;
         font-weight: 900;
         word-wrap: break-word;
     }
     .heading_line1{
-        color: #fdd82e;
         font-size: 20px;
         font-weight: bolder;
         padding-top: 1rem;
@@ -1922,13 +1912,6 @@ footer{
 }
 }
 @media   (min-width:771px) and (max-width:991px){
-      /* contact */
-      /* .section_title h2{
-        font-size: 30px;
-        font-size: 500;
-        text-transform: uppercase;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.234);
-    } */
     .contact_form{
         margin-bottom:2rem;
     }
@@ -1949,13 +1932,11 @@ footer{
         padding-top: 6rem;
     }
     .heading_line{
-        color: #0d469f;
         font-size: 30px;
         font-weight: 900;
         word-wrap: break-word;
     }
     .heading_line1{
-        color: #fdd82e;
         font-size: 20px;
         font-weight: bolder;
         padding-top: 1rem;
