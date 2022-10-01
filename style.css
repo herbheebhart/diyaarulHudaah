@@ -156,10 +156,11 @@ header{
     background-image:
     linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
     url('img/kaaba4.jpg');
-    height: 30rem;
+    height: 35rem;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 4rem;
+    background-attachment: fixed;
 }
 .countDownEvents{
     height: 20rem;
