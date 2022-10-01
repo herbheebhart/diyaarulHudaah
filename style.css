@@ -86,7 +86,7 @@ header{
 }
 /* hero */
 .hero_section{
-    background-image: url(img/diyaarulImg18.jpg);
+    background-image:  linear-gradient(to bottom, rgba(23, 23, 24, 0.937), rgba(0, 0, 0, 0.234)),url(img/diyaarulImg18.jpg);
     height: 120vh;
     width: 100%;
     background-size: cover;
@@ -1672,13 +1672,11 @@ footer{
         padding-top: 6rem;
     }
     .heading_line{
-        color: #0d469f;
         font-size: 30px;
         font-weight: 900;
         word-wrap: break-word;
     }
     .heading_line1{
-        color: #fdd82e;
         font-size: 20px;
         font-weight: bolder;
         padding-top: 1rem;
