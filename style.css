@@ -229,10 +229,34 @@ header{
     border-radius: .5rem;
     padding-top: 15px;
 }
+/* .cours{
+    border: 2px solid white;
+    background:transparent;
+    border-radius: 0.5rem;
+    height:23rem;
+    align-items: center;
+    text-align: center;
+}
+.cours a{
+    color: white;
+}
+.cours_text p{
+    margin:1rem;
+    color: white;
+}
+.cours_text h5{
+    padding-top: 1rem;
+    color: white;
+}
+.main_EventSlides{
+    text-align: center;
+    color:white;
+} */
+
 .course{
     background:transparent;
-    border:2px solid #6c63ff;
     border-radius: 0.5rem;
+    border: 2px solid #6c63ff;
     height:23rem;
     align-items: center;
     text-align: center;
@@ -274,7 +298,7 @@ header{
 }
 .text_color{
     background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    height: 30rem;
+    height: 33rem;
 }
 .text_color h2{
     align-items: center;
@@ -340,7 +364,10 @@ header{
 
 }
 .about_sect{
-    margin-top: 7rem;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVsfYU-fDSkNl2nm6lTVMpUweU8PnvoDAPCQ&usqp=CAU);
+   background-size: cover;
+    padding: 7rem 0 2rem 0;
+    margin-top: 2rem;
 }
 .abt_text{
     padding: 7rem 0 0 4rem;
@@ -360,6 +387,12 @@ header{
     color:#0d469f;
     margin-top: 4rem;
 }
+.event_color{
+    margin-top: 2rem;
+    padding: 3rem 0;
+    background-image:url(https://i.pinimg.com/originals/68/bb/7a/68bb7a743b22a68a94c59775dd464598.png); 
+
+}
 /* Contacts */
 .section_title{
     text-align: center;
@@ -378,21 +411,46 @@ header{
     color: #0d469f;
 }
 footer{
-    background-color: rgba(255, 255, 255, 0.087);
-    height: 20rem;
+    background-image:url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
     margin-top: 1.5rem;
+}
+.footer_text{
+    padding-top:1rem;
+}
+.footer_text a{
+    color: black;
 }
 .contact_form{
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
     padding: 30px 40px;
+    outline: none !important;
 }
+/* textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus,  
+button,
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+button
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+} */
+
 .contact_form .btn{
     background-color: #0d469f;
     color: white;
     padding: 10px 50px;
     font-weight: 600;
     text-transform: uppercase;
+    margin-left:6rem;
 }
 .map{
     width: 600px;
@@ -409,6 +467,14 @@ footer{
     margin-top: 6rem;
 }
 /* FAQ */
+.freq{
+    background-image: url(img/bg7.png);
+    height: 60rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
 .faq{
     padding: 2rem;
     display: flex;
@@ -416,7 +482,6 @@ footer{
     gap: 1.4rem;
     height: fit-content;
     background-color: #6c63ff;
-    /* background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
     cursor: pointer;
     margin-top: 2rem;
   }
@@ -605,6 +670,15 @@ footer{
         text-align: center;
         margin-top: 3rem !important;
     }
+    .courses{
+        border: 2px solid white;
+        background:transparent;
+        border-radius: 0.5rem;
+        height:23rem;
+        width: 100%;
+        align-items: center;
+        text-align: center; 
+    }
     .course_text p{
         margin:1rem;
         color: blue;
@@ -654,7 +728,7 @@ footer{
     }
     /* about us */
     .about{
-        background-image: url(img/diyaarulImg11.jfif);
+        /* background-image: url(img/diyaarulImg11.jfif); */
         height: 20rem;
         width: 100%;
         background-size: cover;
@@ -767,14 +841,10 @@ footer{
             margin-bottom: 10rem;
           }
           .main_row{
-            background-image:
-            linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
-            url('img/kaaba4.jpg');
             width: 100%;
             height: 25rem;
             background-size: cover;
             background-repeat: no-repeat;
-            /* margin-top:2rem !important; */
         }
         .countDownEvents{
             height: 20rem;
@@ -847,36 +917,24 @@ footer{
             padding-top: 15px;
         }
         /* events */
-        .course{
-            background:transparent;
-            border:2px solid #6c63ff;
-            border-radius: 0.5rem;
+        .course,.cours{
             height:23rem;
-            align-items: center;
-            text-align: center;
             margin-top: 3rem !important;
         }
-        .course_text p{
+        .course_text p, .cours_text p{
             margin:1rem;
-            color: blue;
         }
-        .course_text h5{
+        .course_text h5, .cours_text h5{
             padding-top: 1rem;
-            color: #0d469f;
         }
         .course_img img{
             width:100%;
-        }
-        .event_text{
-            color:#0d469f
         }
         .event_slide{
             margin-top: 3rem;
         }
         .main_EventSlide{
-            text-align: center;
-            color: #0d469f;
-            padding-top: 10em !important;
+        padding-top: 10em !important;
         }
             /* Testimonial */
 .text_color{
@@ -969,8 +1027,6 @@ footer{
         padding-top: 1rem;
     }
     .btn1{
-        background-color: #0d469f;
-        color: white;
         height: 60px;
         width: 70%;
         outline: none;
@@ -983,15 +1039,12 @@ footer{
             width: 100%;
           }
           .article_course{
-            background:transparent;
-            border:2px solid #fdd82e;
             text-align: center;
             padding: 1rem;
             margin-top: 2rem !important;
           }
           .article_course:hover{
             background: transparent;
-            border-color:#6c63ff;
           }
           .courses_text{
             padding: 3rem;
@@ -1099,13 +1152,8 @@ footer{
         padding-top: 15px;
     }
     /* events */
-    .course{
-        background:transparent;
-        border:2px solid #6c63ff;
-        border-radius: 0.5rem;
-        height:23rem;
-        align-items: center;
-        text-align: center;
+    .course, .cours{
+        height:27rem;
         margin-top: 3rem !important;
     }
     .course_text p{
@@ -1344,10 +1392,7 @@ footer{
         padding-top: 15px;
     }
     /* events */
-    .course{
-        background:transparent;
-        border:2px solid #6c63ff;
-        border-radius: 0.5rem;
+    .course, .cours{
         height:30rem;
         align-items: center;
         text-align: center;
@@ -1578,13 +1623,8 @@ footer{
         padding-top: 15px;
     }
     /* events */
-    .course{
-        background:transparent;
-        border:2px solid #6c63ff;
-        border-radius: 0.5rem;
+    .course, .cours{
         height:30rem;
-        align-items: center;
-        text-align: center;
         margin-top: 3rem !important;
     }
     .course_text p{
@@ -1824,13 +1864,8 @@ footer{
         padding-top: 15px;
     }
     /* events */
-    .course{
-        background:transparent;
-        border:2px solid #6c63ff;
-        border-radius: 0.5rem;
-        height:30rem;
-        align-items: center;
-        text-align: center;
+    .course, .cours{
+        height:30rem !important;
         margin-top: 3rem !important;
     }
     .course_text p{
@@ -1909,7 +1944,7 @@ footer{
     width: 100%;
 }
 }
-@media   (min-width:771px) and (max-width:991px){
+@media (min-width:771px) and (max-width:991px){
     .contact_form{
         margin-bottom:2rem;
     }
@@ -1940,8 +1975,6 @@ footer{
         padding-top: 1rem;
     }
     .btn1{
-        background-color: #0d469f;
-        color: white;
         height: 60px;
         width: 30%;
         outline: none;
@@ -1954,7 +1987,6 @@ footer{
         height: 20rem;
         width: 100%;
         border-radius: 1rem;
-        background-color: white;
     }
     .btn_divs{
         align-items: center;
@@ -1970,7 +2002,6 @@ footer{
         color: white;
         outline: none;
         border: none;
-        border-radius: 1rem;
     }
     .btn4{
         height: 50px;
@@ -1982,36 +2013,23 @@ footer{
         border-radius: 1rem;
     }
      /* events */
-     .course{
-        background:transparent;
-        border:2px solid #6c63ff;
-        border-radius: 0.5rem;
+     .course, .cours{
         height:40rem !important;
-        align-items: center;
-        text-align: center;
+        width: 100%;
         margin-top: 2rem;
-        padding: 1rem;
+        padding: 1rem !important;
     }
     .course_text p{
         margin:1rem;
-        color: blue;
     }
     .course_text h5{
-        padding-top: 1rem;
-        color: #0d469f;
-    }
-    .course_img img{
-        width:100%;
-    }
-    .event_text{
-        color:#0d469f
+        padding-top: 1.5rem
     }
     .event_slide{
         margin-top: 3rem;
     }
     .main_EventSlide{
         text-align: center;
-        color: #0d469f;
         padding-top: 4rem !important;
     }
         /* Testimonial */
