@@ -455,7 +455,7 @@ button
     padding: 10px 50px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-left:6rem;
+    margin:0 auto;
 }
 .map{
     width: 600px;
