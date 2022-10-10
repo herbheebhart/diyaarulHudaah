@@ -1,5 +1,5 @@
 const countDown = ()=>{
-    const countDate = new Date("october 10, 2022 00:00:00").getTime()
+    const countDate = new Date("october 30, 2022 00:00:00").getTime()
     const current = new Date()
     // You can set the counter by subtrating future times from current 
     const gap =countDate - current
@@ -17,10 +17,13 @@ const countDown = ()=>{
 
     // Dom
     document.querySelector('.day').innerHTML = textDay
-    document.querySelector('.hour').innerHTML = textHour
-    document.querySelector('.min').innerHTML = textMin
-    document.querySelector('.sec').innerHTML = textSec
+    document.querySelector('.hour').innerHTML =formatTime(textHour)
+    document.querySelector('.min').innerHTML =formatTime(textMin)
+    document.querySelector('.sec').innerHTML =formatTime(textSec)
 
+}
+function formatTime(time){
+    return time < 10 ? `0${time}`:time;
 }
 setInterval(countDown, 1000);
 // FAQ
@@ -37,3 +40,26 @@ faq.forEach((faqs)=>{
         }
     })
 })
+// payment method is paypal
+var amountElement = document.getElementById('amount');
+
+paypal.Buttons({
+    createOrder: function(data, actions) {
+      // This function sets up the details of the transaction, including the amount and line item details.
+      return actions.order.create({
+        purchase_units: [{
+          amount: {
+            value: amountElement.value
+          }
+        }]
+      });
+    },
+    onApprove: function(data, actions) {
+      // This function captures the funds from the transaction.
+      return actions.order.capture().then(function(details) {
+        // This function shows a transaction success message to your buyer.
+        alert('Transaction completed by ' + details.payer.name.given_name);
+      });
+    }
+  }).render('#paypal');
+  //This function displays payment buttons on your web page.
