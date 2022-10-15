@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,900;1,300;1,400&display=swap');
 *{
     padding:0px;
     margin:0px;
@@ -530,6 +531,138 @@ button
     /* display: flex;
     justify-content: center; */
   }
+  
+  /* Donation page */
+  .charity_statement{
+    background-color: #fdd72ecd;
+    padding: 50px 80px;
+  }
+  .charity_box{
+    background-color: #fdd82e;
+    padding: 30px 50px;
+  }
+  .charity_img{
+    background-image: url(img/orphan1.jpg);
+    height: 30rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+  }
+  .charity_projectText{
+    padding-top: 7rem;
+  }
+  .charity_projectText p{
+    padding: 1.5rem 0 2rem 0;
+  }
+  .charity_projects,.charity_projec,.charity_project{
+    margin-top: 3rem;
+    padding-top: 4rem;
+  }
+  .main_charity{
+    background-image: url(img/bg6.jpg);
+    height: 120rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* padding: 30px 50px; */
+  }
+  .charity_projectText h3{
+    padding-top: 2rem;
+  }
+  .btn_donate{
+    background-color: #0d469f;
+    color: white;
+    padding: 10px 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin:0 auto;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+  }
+  .containerForm{
+    background-color: #ecf0f3;
+    width: 100%;
+    height: 70rem;
+    text-align: center;
+    justify-self: center;
+    align-items: center;
+    place-items:center ;
+    padding-top: 5rem;
+  background-attachment: fixed;
+  }
+  .container2Form{
+    position: relative;
+    width: 50%;
+    height:135vh;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    margin: auto;
+  }
+  .main_donate{
+    height: 100px;
+    width: 100px;
+    background: url("img/Ellipse\ 1\ \(1\).png");
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+  }
+  .donate-title{
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #1DA1F2;
+    letter-spacing: 1px;
+  }
+  label, input, button {
+    /* display: block; */
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+label {
+    margin: 1rem 0 1rem 0;
+    text-align: left;
+  }
+  
+  input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    caret-color: #fdd82e;
+  }
+  
+  .btn_pay {
+    color: white;
+    background: #1DA1F2;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+    margin-top: 2rem;
+  }
+  
+  .btn_pay:hover {
+    box-shadow: none;
+    transition: 2s linear;
+  }
+
+
 /* responsiveness */
 @media  (min-width:250px) and (max-width:300px) {
     .nav-link:hover{
@@ -795,6 +928,35 @@ button
     .freq{
         height: 130rem;
     }
+    /* donate payment */
+    .container2Form{
+        width: 100%;
+    }
+    .charity_projectText{
+    padding-top:0rem;
+    }
+    .charity_projectText p{
+        padding:2rem 0 2rem 0 ;
+    }
+    .btn_donate{
+        margin: 1rem 0 2rem 0;
+    }
+    .main_charity{
+        height: 210rem;
+    }
+    .charity_project,.charity_img {
+        margin-top: 1.5rem;
+    }
+    .charity_statement{
+        margin-top: 1.5rem;
+        padding: 0px;
+    }
+    .charity_box{
+        padding: 0px;
+        height: 22rem;
+        margin-top:2rem;
+        padding: 2rem;
+    }
 }
 @media   (min-width:301px) and (max-width:370px){
     .nav-link:hover{
@@ -1032,6 +1194,38 @@ button
 }
 .freq{
     height: 100rem;
+}
+.container2Form{
+    width: 100%;
+}
+ /* donate payment */
+ .container2Form{
+    width: 100%;
+}
+.charity_projectText{
+padding-top:0rem;
+}
+.charity_projectText p{
+    padding:2rem 0 2rem 0 ;
+}
+.btn_donate{
+    margin: 1rem 0 2rem 0;
+}
+.main_charity{
+    height: 200rem;
+}
+.charity_project,.charity_img {
+    margin-top: 1.5rem;
+}
+.charity_statement{
+    margin-top: 1.5rem;
+    padding: 0px;
+}
+.charity_box{
+    padding: 0px;
+    height: 17rem;
+    margin-top:2rem;
+    padding: 2rem;
 }
 }
 @media   (min-width:371px) and (max-width:499px){
@@ -1277,6 +1471,38 @@ button
 .freq{
     height: 110rem;
 }
+.container2Form{
+    width: 100%;
+}
+/* donate payment */
+.container2Form{
+    width: 100%;
+}
+.charity_projectText{
+padding-top:0rem;
+}
+.charity_projectText p{
+    padding:2rem 0 2rem 0 ;
+}
+.btn_donate{
+    margin: 1rem 0 2rem 0;
+}
+.main_charity{
+    height: 180rem;
+}
+.charity_project,.charity_img {
+    margin-top: 1.5rem;
+}
+.charity_statement{
+    margin-top: 1.5rem;
+    padding: 0px;
+}
+.charity_box{
+    padding: 0px;
+    height: 17rem;
+    margin-top:2rem;
+    padding: 2rem;
+}
 }
 @media   (min-width:500px) and (max-width:641px){
     .nav-link:hover{
@@ -1511,6 +1737,38 @@ button
 .freq{
     height: 100rem;
 }
+.container2Form{
+    width: 100%;
+}
+/* donate payment */
+.container2Form{
+    width: 100%;
+}
+.charity_projectText{
+padding-top:0rem;
+}
+.charity_projectText p{
+    padding:2rem 0 2rem 0 ;
+}
+.btn_donate{
+    margin: 1rem 0 2rem 0;
+}
+.main_charity{
+    height: 170rem;
+}
+.charity_project,.charity_img {
+    margin-top: 1.5rem;
+}
+.charity_statement{
+    margin-top: 1.5rem;
+    padding: 0px;
+}
+.charity_box{
+    padding: 0px;
+    height: 17rem;
+    margin-top:2rem;
+    padding: 2rem;
+}
 }
 @media   (min-width:641px) and (max-width:705px){
     .nav-link:hover{
@@ -1743,7 +2001,38 @@ button
 .freq{
     height: 100rem;
 }
-
+.container2Form{
+    width: 70%;
+}
+/* donate payment */
+.container2Form{
+    width: 100%;
+}
+.charity_projectText{
+padding-top:0rem;
+}
+.charity_projectText p{
+    padding:2rem 0 2rem 0 ;
+}
+.btn_donate{
+    margin: 1rem 0 2rem 0;
+}
+.main_charity{
+    height: 170rem;
+}
+.charity_project,.charity_img {
+    margin-top: 1.5rem;
+}
+.charity_statement{
+    margin-top: 1.5rem;
+    padding: 0px;
+}
+.charity_box{
+    padding: 0px;
+    height: 17rem;
+    margin-top:2rem;
+    padding: 2rem;
+}
 }
 @media   (min-width:706px) and (max-width:770px){
     .nav-link:hover{
@@ -1992,6 +2281,35 @@ button
 .freq{
     height: 100rem;
 }
+/* donate payment */
+.container2Form{
+    width: 100%;
+}
+.charity_projectText{
+padding-top:0rem;
+}
+.charity_projectText p{
+    padding:2rem 0 2rem 0 ;
+}
+.btn_donate{
+    margin: 1rem 0 2rem 0;
+}
+.main_charity{
+    height: 170rem;
+}
+.charity_project,.charity_img {
+    margin-top: 1.5rem;
+}
+.charity_statement{
+    margin-top: 1.5rem;
+    padding: 0px;
+}
+.charity_box{
+    padding: 0px;
+    height: 17rem;
+    margin-top:2rem;
+    padding: 2rem;
+}
 }
 @media (min-width:771px) and (max-width:991px){
     .contact_form{
@@ -2111,14 +2429,35 @@ button
 .nav-link:hover{
     border-bottom: none !important;
 }
-/* .navbar .navbar-nav .nav-item{
-    position: relative;
+/* donate payment */
+.container2Form{
+    width: 100%;
 }
-.navbar .navbar-nav .nav-link{
-    padding: 1rem 0;
-    margin: 0 1rem;
+.charity_projectText{
+padding-top:0rem;
+}
+.charity_projectText p{
+    padding:2rem 0 2rem 0 ;
+}
+.btn_donate{
+    margin: 1rem 0 2rem 0;
+}
+/* .main_charity{
+    height: 170rem;
 } */
-
+.charity_project,.charity_img {
+    margin-top: 1.5rem;
+}
+.charity_statement{
+    margin-top: 1.5rem;
+    padding: 0px;
+}
+.charity_box{
+    height: 25rem;
+    width: 100%;
+    margin-top:2rem;
+    padding: 1rem;
+}
 }
 
 
