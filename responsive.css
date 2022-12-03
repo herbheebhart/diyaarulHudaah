@@ -1,0 +1,1956 @@
+/* responsiveness */
+@media  (min-width:250px) and (max-width:300px) {
+    .nav-link:hover{
+        border-bottom: none;
+    }
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 5rem;
+    }
+    .heading_line{
+        font-size: 20px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        font-size: 15px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        background-color: #0d469f;
+        color: white;
+        height: 60px;
+        width: 100%;
+        outline: none;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+    /* course */
+    .article_course img{
+        width: 100%;
+      }
+      .article_course{
+        background:transparent;
+        border:2px solid #fdd82e;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem !important;
+      }
+      .article_course:hover{
+        background: transparent;
+        border-color:#6c63ff;
+      }
+      .courses_text{
+        padding: 3rem;
+        word-wrap: break-word;
+      }
+      .courses_text p{
+        font-size: 0.9rem;
+        word-wrap: break-word;
+        text-align: start;
+        margin: .5rem 0 2rem .5rem;
+      }
+      .courses_1 h3{
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 1rem;
+        word-wrap: break-word;
+      }
+      .courses_1 p{
+        font-size: 15px;
+        margin-top: .5rem;
+        word-wrap: break-word;
+      }
+      /* event */
+      .event{
+        margin-bottom: 10rem;
+      }
+      .main_row{
+        background-image:
+        linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
+        url('img/kaaba4.jpg');
+        width: 100%;
+        height: 25rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin-top:2rem !important; */
+    }
+    .countDownEvents{
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: white;
+        margin-bottom: 10rem !important;
+    }
+    .countDownEvents h5{
+        text-align: center;
+        padding-top: 2rem;
+        color: #0d469f;
+    }
+    .event_counter{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .day, .hour, .min, .sec{
+        font-size: 1.5rem;
+    }
+    .events{
+        padding-top: 7rem;
+    }
+    .events_text{
+        color: white;
+        padding-top: 1rem;
+        word-wrap: break-word;
+    }
+    .event_text{
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 15px;
+       
+    }
+    .btn_divs{
+        align-items: center;
+        text-align: center;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-right: 7rem;
+        gap: 2rem;
+    }
+    .btn3{
+        height: 60px;
+        width: 10rem;
+        background-color: #6c63ff;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+    }
+    .btn4{
+        height: 60px;
+        width: 10rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid #fdd82e;
+        border-radius: 1rem;
+    }
+    .day, .hour, .min, .sec{
+        height: 60px;
+        width: 50px;
+        border: 2px solid #6c63ff;
+        border-radius: .5rem;
+        padding-top: 15px;
+    }
+    /* events */
+    .course{
+        background:transparent;
+        border:2px solid #6c63ff;
+        border-radius: 0.5rem;
+        height:23rem;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem !important;
+    }
+    .courses{
+        border: 2px solid white;
+        background:transparent;
+        border-radius: 0.5rem;
+        height:23rem;
+        width: 100%;
+        align-items: center;
+        text-align: center; 
+    }
+    .course_text p{
+        margin:1rem;
+        color: blue;
+    }
+    .course_text h5{
+        padding-top: 1rem;
+        color: #0d469f;
+    }
+    .course_img img{
+        width:100%;
+    }
+    .event_text{
+        color:#0d469f
+    }
+    .event_slide{
+        margin-top: 3rem;
+    }
+    .main_EventSlide{
+        text-align: center;
+        color: #0d469f;
+        padding-top: 10em !important;
+    }
+
+    /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 50rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+    }
+    /* about us */
+    .about, .abouts{
+        height: 20rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 1.5rem;
+    }
+    .about_sect{
+        margin-top:1.5rem;
+    }
+    .abt_text{
+        padding:1rem  ;
+        color: #0d469f;
+    }
+    .abt_texts{
+        color:#0d469f;
+        margin-top:1rem;
+        padding: 1rem;
+    }
+    /* contact */
+    .section_title h2{
+        font-size: 30px;
+        font-size: 500;
+        text-transform: uppercase;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.234);
+    }
+    .contact_form{
+        padding: 30px 40px;
+        margin-bottom:3rem;
+    }
+    .contact_form .btn{
+        padding: 10px 40px;
+    }
+    .map{
+        height:365px;
+        width:100%;
+    }
+    /* FAQ */
+    .faq{
+        padding: 1rem;
+    }
+    .freq{
+        height: 130rem;
+    }
+    /* donate payment */
+    .container2Form{
+        width: 100%;
+    }
+    .charity_projectText{
+    padding-top:0rem;
+    }
+    .charity_projectText p{
+        padding:2rem 0 2rem 0 ;
+    }
+    .btn_donate{
+        margin: 1rem 0 2rem 0;
+    }
+    .main_charity{
+        height: 210rem;
+    }
+    .charity_project,.charity_img {
+        margin-top: 1.5rem;
+    }
+    .charity_statement{
+        margin-top: 1.5rem;
+        padding: 0px;
+    }
+    .charity_box{
+        padding: 0px;
+        height: 22rem;
+        margin-top:2rem;
+        padding: 2rem;
+    }
+}
+@media   (min-width:301px) and (max-width:370px){
+    .nav-link:hover{
+        border-bottom: none;
+    }
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 5rem;
+    }
+    .heading_line{
+        font-size: 20px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        font-size: 15px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        background-color: #0d469f;
+        color: white;
+        height: 60px;
+        width: 100%;
+        outline: none;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+     /* course */
+     .article_course img{
+        width: 100%;
+      }
+      .article_course{
+        background:transparent;
+        border:2px solid #fdd82e;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem !important;
+      }
+      .article_course:hover{
+        background: transparent;
+        border-color:#6c63ff;
+      }
+      .courses_text{
+        padding: 3rem;
+        word-wrap: break-word;
+      }
+      .courses_text p{
+        font-size: 1rem;
+        word-wrap: break-word;
+        text-align: start;
+        margin: .5rem 0 2rem .5rem;
+      }
+      .courses_1 h3{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 1rem;
+        word-wrap: break-word;
+      }
+      .courses_1 p{
+        font-size: 15px;
+        margin-top: .5rem;
+        word-wrap: break-word;
+      }
+         /* event */
+         .event{
+            margin-bottom: 10rem;
+          }
+          .main_row{
+            width: 100%;
+            height: 25rem;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .countDownEvents{
+            height: 20rem;
+            width: 100%;
+            border-radius: 1rem;
+            background-color: white;
+            margin-bottom: 10rem !important;
+        }
+        .countDownEvents h5{
+            text-align: center;
+            padding-top: 2rem;
+            color: #0d469f;
+        }
+        .event_counter{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 2rem;
+            text-align: center;
+        }
+        .day, .hour, .min, .sec{
+            font-size: 1.5rem;
+        }
+        .events{
+            padding-top: 7rem;
+        }
+        .events_text{
+            color: white;
+            padding-top: 1rem;
+            word-wrap: break-word;
+        }
+        .event_text{
+            text-align: center;
+            align-items: center;
+            margin-top: 2rem;
+            font-size: 15px;
+           
+        }
+        .btn_divs{
+            align-items: center;
+            text-align: center;
+            padding-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            margin-right: 7rem;
+            gap: 2rem;
+        }
+        .btn3{
+            height: 60px;
+            width: 10rem;
+            background-color: #6c63ff;
+            color: white;
+            outline: none;
+            border: none;
+            border-radius: 1rem;
+        }
+        .btn4{
+            height: 60px;
+            width: 10rem;
+            background-color: white;
+            color: black;
+            outline: none;
+            border: 1px solid #fdd82e;
+            border-radius: 1rem;
+        }
+        .day, .hour, .min, .sec{
+            height: 60px;
+            width: 50px;
+            border: 2px solid #6c63ff;
+            border-radius: .5rem;
+            padding-top: 15px;
+        }
+        /* events */
+        .course,.cours{
+            height:23rem;
+            margin-top: 3rem !important;
+        }
+        .course_text p, .cours_text p{
+            margin:1rem;
+        }
+        .course_text h5, .cours_text h5{
+            padding-top: 1rem;
+        }
+        .course_img img{
+            width:100%;
+        }
+        .event_slide{
+            margin-top: 3rem;
+        }
+        .main_EventSlide{
+        padding-top: 10em !important;
+        }
+            /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 40rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+/* about us */
+.about,.abouts{
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.about_sect{
+    margin-top:1.5rem;
+}
+.abt_text{
+    padding:1rem  ;
+    color: #0d469f;
+}
+.abt_texts{
+    color:#0d469f;
+    margin-top:1rem;
+    padding: 1rem;
+}
+  /* contact */
+  .section_title h2{
+    font-size: 30px;
+    font-size: 500;
+    text-transform: uppercase;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.234);
+}
+.contact_form{
+    padding: 30px 40px;
+    margin-bottom:3rem;
+}
+.contact_form .btn{
+    padding: 10px 40px;
+}
+.map{
+    height:365px;
+    width: 100%;
+}
+.faq{
+    padding: 1rem;
+}
+.freq{
+    height: 100rem;
+}
+.container2Form{
+    width: 100%;
+}
+ /* donate payment */
+ .container2Form{
+    width: 100%;
+}
+.charity_projectText{
+padding-top:0rem;
+}
+.charity_projectText p{
+    padding:2rem 0 2rem 0 ;
+}
+.btn_donate{
+    margin: 1rem 0 2rem 0;
+}
+.main_charity{
+    height: 200rem;
+}
+.charity_project,.charity_img {
+    margin-top: 1.5rem;
+}
+.charity_statement{
+    margin-top: 1.5rem;
+    padding: 0px;
+}
+.charity_box{
+    padding: 0px;
+    height: 17rem;
+    margin-top:2rem;
+    padding: 2rem;
+}
+}
+@media   (min-width:371px) and (max-width:499px){
+    .nav-link:hover{
+        border-bottom:none ;
+    }
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 7rem;
+    }
+    .heading_line{
+        font-size: 25px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        font-size: 15px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        height: 60px;
+        width: 70%;
+        outline: none;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+         /* course */
+         .article_course img{
+            width: 100%;
+          }
+          .article_course{
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem !important;
+          }
+          .article_course:hover{
+            background: transparent;
+          }
+          .courses_text{
+            padding: 3rem;
+            word-wrap: break-word;
+          }
+          .courses_text p{
+            font-size: 1rem;
+            word-wrap: break-word;
+            text-align: start;
+            margin: .5rem 0 2rem .5rem;
+          }
+          .courses_1 h3{
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 1rem;
+            word-wrap: break-word;
+          }
+          .courses_1 p{
+            font-size: 15px;
+            margin-top: .5rem;
+            word-wrap: break-word;
+          }
+             /* event */
+      .event{
+        margin-bottom: 10rem;
+      }
+      .main_row{
+        background-image:
+        linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
+        url('img/kaaba4.jpg');
+        width: 100%;
+        height: 25rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin-top:2rem !important; */
+    }
+    .countDownEvents{
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: white;
+        margin-bottom: 10rem !important;
+    }
+    .countDownEvents h5{
+        text-align: center;
+        padding-top: 2rem;
+        color: #0d469f;
+    }
+    .event_counter{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .day, .hour, .min, .sec{
+        font-size: 1.5rem;
+    }
+    .events{
+        padding-top: 7rem;
+    }
+    .events_text{
+        color: white;
+        padding-top: 1rem;
+        word-wrap: break-word;
+    }
+    .event_text{
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 15px;
+       
+    }
+    .btn_divs{
+        align-items: center;
+        text-align: center;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-right: 7rem;
+        gap: 2rem;
+    }
+    .btn3{
+        height: 60px;
+        width: 10rem;
+        background-color: #6c63ff;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+    }
+    .btn4{
+        height: 60px;
+        width: 10rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid #fdd82e;
+        border-radius: 1rem;
+    }
+    .day, .hour, .min, .sec{
+        height: 60px;
+        width: 50px;
+        border: 2px solid #6c63ff;
+        border-radius: .5rem;
+        padding-top: 15px;
+    }
+    /* events */
+    .course, .cours{
+        height:27rem;
+        margin-top: 3rem !important;
+    }
+    .course_text p{
+        margin:1rem;
+        color: blue;
+    }
+    .course_text h5{
+        padding-top: 1rem;
+        color: #0d469f;
+    }
+    .course_img img{
+        width:100%;
+    }
+    .event_text{
+        color:#0d469f
+    }
+    .event_slide{
+        margin-top: 3rem;
+    }
+    .main_EventSlide{
+        text-align: center;
+        color: #0d469f;
+        padding-top: 10em !important;
+    }
+        /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 40rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+/* about us */
+.about,.abouts{
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.about_sect{
+    margin-top:2rem;
+}
+.abt_text{
+    padding:2rem  ;
+    color: #0d469f;
+}
+.abt_texts{
+    color:#0d469f;
+    margin-top:1rem;
+    padding: 2rem;
+}
+  /* contact */
+  .section_title h2{
+    font-size: 35px;
+    font-size: 500;
+    text-transform: uppercase;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.234);
+}
+.contact_form{
+    padding: 30px 40px;
+    margin-bottom:3rem;
+}
+.contact_form .btn{
+    padding: 10px 40px;
+}
+.map{
+    height:365px;
+    width: 100%;
+}
+.faq{
+    padding: 1.5rem;
+}
+.freq{
+    height: 110rem;
+}
+.container2Form{
+    width: 100%;
+}
+/* donate payment */
+.container2Form{
+    width: 100%;
+}
+.charity_projectText{
+padding-top:0rem;
+}
+.charity_projectText p{
+    padding:2rem 0 2rem 0 ;
+}
+.btn_donate{
+    margin: 1rem 0 2rem 0;
+}
+.main_charity{
+    height: 180rem;
+}
+.charity_project,.charity_img {
+    margin-top: 1.5rem;
+}
+.charity_statement{
+    margin-top: 1.5rem;
+    padding: 0px;
+}
+.charity_box{
+    padding: 0px;
+    height: 17rem;
+    margin-top:2rem;
+    padding: 2rem;
+}
+}
+@media   (min-width:500px) and (max-width:641px){
+    .nav-link:hover{
+        border-bottom: none;
+    }
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 8rem;
+    }
+    .heading_line{
+        font-size: 30px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        font-size: 20px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        background-color: #0d469f;
+        color: white;
+        height: 60px;
+        width: 50%;
+        outline: none;
+        border: none;
+        margin-top: 1.5rem;
+        border-radius: 1rem;
+    }
+        /* course */
+        .article_course img{
+            width: 100%;
+          }
+          .article_course{
+            background:transparent;
+            border:2px solid #fdd82e;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem !important;
+          }
+          .article_course:hover{
+            background: transparent;
+            border-color:#6c63ff;
+          }
+          .courses_text{
+            padding: 3.5rem;
+            word-wrap: break-word;
+          }
+          .courses_text p{
+            font-size: 1rem;
+            word-wrap: break-word;
+            text-align: start;
+            margin: .5rem 0 2rem .5rem;
+          }
+          .courses_1 h3{
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 1rem;
+            word-wrap: break-word;
+          }
+          .courses_1 p{
+            font-size: 15px;
+            margin-top: .5rem;
+            word-wrap: break-word;
+        }
+           /* event */
+      .event{
+        margin-bottom: 10rem;
+      }
+      .main_row{
+        background-image:
+        linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
+        url('img/kaaba4.jpg');
+        width: 100%;
+        height: 25rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin-top:2rem !important; */
+    }
+    .countDownEvents{
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: white;
+        /* margin-bottom: 10rem !important; */
+    }
+    .countDownEvents h5{
+        text-align: center;
+        padding-top: 3rem;
+        color: #0d469f;
+    }
+    .event_counter{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .day, .hour, .min, .sec{
+        font-size: 1.5rem;
+    }
+    .events{
+        padding-top: 7rem;
+    }
+    .events_text{
+        color: white;
+        padding-top: 1rem;
+        word-wrap: break-word;
+    }
+    .event_text{
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 15px;
+       
+    }
+    .btn_divs{
+        align-items: center;
+        text-align: center;
+        padding-top: 2rem;
+        display: inline-flex;
+        margin-right: 7rem;
+        gap: 2rem;
+    }
+    .btn3{
+        height: 60px;
+        width: 10rem;
+        background-color: #6c63ff;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+    }
+    .btn4{
+        height: 60px;
+        width: 10rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid #fdd82e;
+        border-radius: 1rem;
+    }
+    .day, .hour, .min, .sec{
+        height: 60px;
+        width: 50px;
+        border: 2px solid #6c63ff;
+        border-radius: .5rem;
+        padding-top: 15px;
+    }
+    /* events */
+    .course, .cours{
+        height:30rem;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem !important;
+    }
+    .course_text p{
+        margin:1rem;
+        color: blue;
+    }
+    .course_text h5{
+        padding-top: 1rem;
+        color: #0d469f;
+    }
+    .course_img img{
+        width:100%;
+    }
+    .event_text{
+        color:#0d469f
+    }
+    .event_slide{
+        margin-top: 3rem;
+    }
+    .main_EventSlide{
+        text-align: center;
+        color: #0d469f;
+        padding-top: 10em !important;
+    }
+        /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 40rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+/* about us */
+.about, .abouts{
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.about_sect{
+    margin-top:2rem;
+}
+.abt_text{
+    padding:1rem  ;
+    color: #0d469f;
+}
+.abt_texts{
+    color:#0d469f;
+    margin-top:1rem;
+    padding: 2rem;
+}
+.map{
+    width: 100%;
+    height: 365px;
+    margin-top: 3rem;
+}
+.freq{
+    height: 100rem;
+}
+.container2Form{
+    width: 100%;
+}
+/* donate payment */
+.container2Form{
+    width: 100%;
+}
+.charity_projectText{
+padding-top:0rem;
+}
+.charity_projectText p{
+    padding:2rem 0 2rem 0 ;
+}
+.btn_donate{
+    margin: 1rem 0 2rem 0;
+}
+.main_charity{
+    height: 170rem;
+}
+.charity_project,.charity_img {
+    margin-top: 1.5rem;
+}
+.charity_statement{
+    margin-top: 1.5rem;
+    padding: 0px;
+}
+.charity_box{
+    padding: 0px;
+    height: 17rem;
+    margin-top:2rem;
+    padding: 2rem;
+}
+}
+@media   (min-width:641px) and (max-width:705px){
+    .nav-link:hover{
+        border-bottom: none;
+    }
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 6rem;
+    }
+    .heading_line{
+        font-size: 30px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        font-size: 20px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        background-color: #0d469f;
+        color: white;
+        height: 60px;
+        width: 40%;
+        outline: none;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+        /* course */
+        .article_course img{
+            width: 100%;
+          }
+          .article_course{
+            background:transparent;
+            border:2px solid #fdd82e;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem !important;
+          }
+          .article_course:hover{
+            background: transparent;
+            border-color:#6c63ff;
+          }
+          .courses_text{
+            padding: 3rem;
+            word-wrap: break-word;
+          }
+          .courses_text p{
+            font-size: 1rem;
+            word-wrap: break-word;
+            text-align: start;
+            margin: .5rem 0 2rem .5rem;
+          }
+          .courses_1 h3{
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 1rem;
+            word-wrap: break-word;
+          }
+          .courses_1 p{
+            font-size: 15px;
+            margin-top: .5rem;
+            word-wrap: break-word;
+          }
+                /* event */
+      .event{
+        margin-bottom: 10rem;
+      }
+      .main_row{
+        background-image:
+        linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
+        url('img/kaaba4.jpg');
+        width: 100%;
+        height: 25rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin-top:2rem !important; */
+    }
+    .countDownEvents{
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: white;
+        /* margin-bottom: 10rem !important; */
+    }
+    .countDownEvents h5{
+        text-align: center;
+        padding-top: 3rem;
+        color: #0d469f;
+    }
+    .event_counter{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .day, .hour, .min, .sec{
+        font-size: 1.5rem;
+    }
+    .events{
+        padding-top: 7rem;
+    }
+    .events_text{
+        color: white;
+        padding-top: 1rem;
+        word-wrap: break-word;
+    }
+    .event_text{
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 15px;
+       
+    }
+    .btn_divs{
+        align-items: center;
+        text-align: center;
+        padding-top: 2rem;
+        display: inline-flex;
+        margin-right: 7rem;
+        gap: 2rem;
+    }
+    .btn3{
+        height: 60px;
+        width: 10rem;
+        background-color: #6c63ff;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+    }
+    .btn4{
+        height: 60px;
+        width: 10rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid #fdd82e;
+        border-radius: 1rem;
+    }
+    .day, .hour, .min, .sec{
+        height: 60px;
+        width: 50px;
+        border: 2px solid #6c63ff;
+        border-radius: .5rem;
+        padding-top: 15px;
+    }
+    /* events */
+    .course, .cours{
+        height:30rem;
+        margin-top: 3rem !important;
+    }
+    .course_text p{
+        margin:1rem;
+        color: blue;
+    }
+    .course_text h5{
+        padding-top: 1rem;
+        color: #0d469f;
+    }
+    .course_img img{
+        width:100%;
+    }
+    .event_text{
+        color:#0d469f
+    }
+    .event_slide{
+        margin-top: 3rem;
+    }
+    .main_EventSlide{
+        text-align: center;
+        color: #0d469f;
+        padding-top: 10em !important;
+    }
+        /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 40rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+/* about us */
+.about, .abouts{
+    height: 20rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.about_sect{
+    margin-top:3rem;
+}
+.abt_text{
+    padding:2rem  ;
+    color: #0d469f;
+}
+.abt_texts{
+    color:#0d469f;
+    margin-top:1rem;
+    padding: 1rem;
+}
+.map{
+    width: 100%;
+    height: 365px;
+    margin-top: 3rem;
+}
+.freq{
+    height: 100rem;
+}
+.container2Form{
+    width: 70%;
+}
+/* donate payment */
+.container2Form{
+    width: 100%;
+}
+.charity_projectText{
+padding-top:0rem;
+}
+.charity_projectText p{
+    padding:2rem 0 2rem 0 ;
+}
+.btn_donate{
+    margin: 1rem 0 2rem 0;
+}
+.main_charity{
+    height: 170rem;
+}
+.charity_project,.charity_img {
+    margin-top: 1.5rem;
+}
+.charity_statement{
+    margin-top: 1.5rem;
+    padding: 0px;
+}
+.charity_box{
+    padding: 0px;
+    height: 17rem;
+    margin-top:2rem;
+    padding: 2rem;
+}
+}
+@media   (min-width:706px) and (max-width:770px){
+    .nav-link:hover{
+        border-bottom: none;
+    }
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 6rem;
+    }
+    .heading_line{
+        font-size: 30px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        font-size: 20px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        background-color: #0d469f;
+        color: white;
+        height: 60px;
+        width: 40%;
+        outline: none;
+        border: none;
+        margin-top: 1.5rem;
+        border-radius: 1rem;
+    }
+        /* course */
+     
+        .article_course img{
+            width: 100%;
+          }
+          .article_course{
+            background:transparent;
+            border:2px solid #fdd82e;
+            width: 100%;
+            text-align: center;
+            padding: 1rem;
+            margin-left: 2rem !important;
+          }
+          .article_course:hover{
+            background: transparent;
+            border-color:#6c63ff;
+          }
+          .courses_text{
+            padding-top: 3rem;
+            word-wrap: break-word;
+          }
+          .courses_text p{
+            font-size: 1rem;
+            word-wrap: break-word;
+            text-align: start;
+            margin: .5rem 0 2rem .5rem;
+          }
+          .courses_1 h3{
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 2rem;
+            word-wrap: break-word;
+          }
+          .courses_1 p{
+            font-size: 15px;
+            margin-top: .5rem;
+            word-wrap: break-word;
+          }
+          .btn2{
+            background-color: #0d469f;
+            color: white;
+            padding: 1rem;
+            outline: none;
+            border: none;
+            margin-top: 5rem;
+            border-radius: .5rem;
+        }
+        .btn2:hover{
+            background-color:#fdd82e;
+        }
+              /* event */
+      .event{
+        margin-bottom: 10rem;
+      }
+      .main_row{
+        background-image:
+        linear-gradient(to bottom, rgba(23, 23, 24, 0.532), rgba(0, 0, 0, 0.234)),
+        url('img/kaaba4.jpg');
+        width: 100%;
+        height: 25rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* margin-top:2rem !important; */
+    }
+    .countDownEvents{
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+        background-color: white;
+    }
+    .countDownEvents h5{
+        text-align: center;
+        padding-top: 3rem;
+        color: #0d469f;
+    }
+    .event_counter{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .day, .hour, .min, .sec{
+        font-size: 1.5rem;
+    }
+    .events{
+        padding-top: 7rem;
+    }
+    .events_text{
+        color: white;
+        padding-top: 1rem;
+        word-wrap: break-word;
+    }
+    .event_text{
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+        font-size: 15px;
+       
+    }
+    .btn_divs{
+        align-items: center;
+        text-align: center;
+        padding-top: 2rem;
+        display: inline-flex;
+        margin-right: 7rem;
+        gap: 2rem;
+    }
+    .btn3{
+        height: 60px;
+        width: 10rem;
+        background-color: #6c63ff;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+    }
+    .btn4{
+        height: 60px;
+        width: 10rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid #fdd82e;
+        border-radius: 1rem;
+    }
+    .day, .hour, .min, .sec{
+        height: 60px;
+        width: 50px;
+        border: 2px solid #6c63ff;
+        border-radius: .5rem;
+        padding-top: 15px;
+    }
+    /* events */
+    .course, .cours{
+        height:30rem !important;
+        margin-top: 3rem !important;
+    }
+    .course_text p{
+        margin:1rem;
+        color: blue;
+    }
+    .course_text h5{
+        padding-top: 1rem;
+        color: #0d469f;
+    }
+    .course_img img{
+        width:100%;
+    }
+    .event_text{
+        color:#0d469f
+    }
+    .event_slide{
+        margin-top: 3rem;
+    }
+    .main_EventSlide{
+        text-align: center;
+        color: #0d469f;
+        padding-top: 7rem !important;
+    }
+        /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 35rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+/* about us */
+.about, .abouts{
+    height: 25rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+.about_sect{
+    margin-top:2rem;
+}
+.abt_text{
+    padding:1.5rem  ;
+    color: #0d469f;
+}
+.abt_texts{
+    color:#0d469f;
+    margin-top:1rem;
+    padding: 1rem;
+}
+.map{
+    width: 550px;
+    height: 365px;
+    margin-top: 3rem;
+}
+.map iframe{
+    width: 100%;
+}
+.freq{
+    height: 100rem;
+}
+/* donate payment */
+.container2Form{
+    width: 100%;
+}
+.charity_projectText{
+padding-top:0rem;
+}
+.charity_projectText p{
+    padding:2rem 0 2rem 0 ;
+}
+.btn_donate{
+    margin: 1rem 0 2rem 0;
+}
+.main_charity{
+    height: 170rem;
+}
+.charity_project,.charity_img {
+    margin-top: 1.5rem;
+}
+.charity_statement{
+    margin-top: 1.5rem;
+    padding: 0px;
+}
+.charity_box{
+    padding: 0px;
+    height: 17rem;
+    margin-top:2rem;
+    padding: 2rem;
+}
+}
+@media (min-width:771px) and (max-width:991px){
+    .contact_form{
+        margin-bottom:2rem;
+    }
+    .contact_form .btn{
+        padding: 10px 40px;
+    }
+    .map{
+        height:490px;
+        width: 100%;
+    }
+    .hero_section{
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .txt1{
+        padding-top: 6rem;
+    }
+    .heading_line{
+        font-size: 30px;
+        font-weight: 900;
+        word-wrap: break-word;
+    }
+    .heading_line1{
+        font-size: 20px;
+        font-weight: bolder;
+        padding-top: 1rem;
+    }
+    .btn1{
+        height: 60px;
+        width: 30%;
+        outline: none;
+        border: none;
+        margin-top: 1.5rem;
+        border-radius: 1rem;
+    }
+     /* countdonw */
+    .countDownEvents{
+        height: 20rem;
+        width: 100%;
+        border-radius: 1rem;
+    }
+    .btn_divs{
+        align-items: center;
+        text-align: center;
+        padding-top: 2rem;
+        display: inline-flex;
+        margin-left: 1rem;
+    }
+    .btn3{
+        height: 50px;
+        width: 8rem;
+        background-color: #6c63ff;
+        color: white;
+        outline: none;
+        border: none;
+    }
+    .btn4{
+        height: 50px;
+        width: 8rem;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid #fdd82e;
+        border-radius: 1rem;
+    }
+     /* events */
+     .course, .cours{
+        height:40rem !important;
+        width: 100%;
+        margin-top: 2rem;
+        padding: 1rem !important;
+    }
+    .course_text p{
+        margin:1rem;
+    }
+    .course_text h5{
+        padding-top: 1.5rem
+    }
+    .event_slide{
+        margin-top: 3rem;
+    }
+    .main_EventSlide{
+        text-align: center;
+        padding-top: 4rem !important;
+    }
+        /* Testimonial */
+.text_color{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 35rem;
+}
+.text_color h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    color: white;
+  }
+  .main_testimony::before{
+    content: " ";
+    display: block;
+    background: linear-gradient(135deg,transparent,rgba(198,176,76,1),#6c63ff);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
+.freq{
+    height: 70rem;
+}
+.nav-link:hover{
+    border-bottom: none !important;
+}
+/* donate payment */
+.container2Form{
+    width: 100%;
+}
+.charity_projectText{
+padding-top:0rem;
+}
+.charity_projectText p{
+    padding:2rem 0 2rem 0 ;
+}
+.btn_donate{
+    margin: 1rem 0 2rem 0;
+}
+.charity_project,.charity_img {
+    margin-top: 1.5rem;
+}
+.charity_statement{
+    margin-top: 1.5rem;
+    padding: 0px;
+}
+.charity_box{
+    height: 25rem;
+    width: 100%;
+    margin-top:2rem;
+    padding: 1rem;
+}
+}
+/* individual courses */
+@media (min-width:250px) and (max-width:300px) {
+ .main_course1{
+  height: 60rem;
+ }
+ .course1{
+  padding-top:3rem;
+ }
+ .video iframe{
+  width: 100%;
+  height: 53vh;
+ }
+ .video_text .course_btn{
+  margin-top: 1.5rem;
+  width: 100%;
+ }
+ .course_discription{
+  margin-top: 1rem;
+  height: 100vh;
+ }
+ .tab-content h3{
+  font-size: 25px;
+  padding-bottom: 1rem;
+ }
+ .tab-content p{
+  font-size:15px;
+  text-align:left;
+ }
+ #shop{
+    width: 100%;
+ }
+ .back{
+    height: 350rem;
+ }
+}
+@media (min-width:301px) and (max-width:370px) {
+  .main_course1{
+  height: 60rem;
+ }
+ .course1{
+  padding-top:3rem;
+ }
+ .video iframe{
+  width: 100%;
+  height: 53vh;
+ }
+ .video_text .course_btn{
+  margin-top: 1.5rem;
+  width: 100%;
+ }
+ .course_discription{
+  margin-top: 1rem;
+  height: 100vh;
+ }
+ .tab-content h3{
+  font-size: 25px;
+  padding-bottom: 1rem;
+ }
+ .tab-content p{
+  font-size:15px;
+  text-align:left;
+ }
+}
+@media (min-width:371px) and (max-width:499px) {
+  .main_course1{
+  height: 60rem;
+ }
+ .course1{
+  padding-top:3rem;
+ }
+ .video iframe{
+  width: 100%;
+  height: 53vh;
+ }
+ .video_text .course_btn{
+  margin-top: 1.5rem;
+  width: 100%;
+ }
+ .course_discription{
+  margin-top: 1rem;
+  height: 100vh;
+ }
+ .tab-content h3{
+  font-size: 25px;
+  padding-bottom: 1rem;
+ }
+ .tab-content p{
+  font-size:15px;
+  text-align:left;
+ }
+ .back{
+    height:300rem;
+ }
+ #shop{
+    width: 100%;
+ }
+}
+@media (min-width:301px) and (max-width:370px) {
+  .main_course1{
+  height: 60rem;
+ }
+ .course1{
+  padding-top:3rem;
+ }
+ .video iframe{
+  width: 100%;
+  height: 53vh;
+ }
+ .video_text .course_btn{
+  margin-top: 1.5rem;
+  width: 100%;
+ }
+ .course_discription{
+  margin-top: 1rem;
+  height: 100vh;
+ }
+ .tab-content h3{
+  font-size: 25px;
+  padding-bottom: 1rem;
+ }
+ .tab-content p{
+  font-size:15px;
+  text-align:left;
+ }
+ #shop{
+    width: 100%;
+ }
+ .back{
+    height: 400rem;
+ }
+}
+@media (min-width:500px) and (max-width:640px){
+    .back{
+        height: 270rem;
+    }
+}
+@media (min-width:641px) and (max-width:705px) {
+ .back{
+    height: 270rem;
+ }
+}
+@media (min-width:706px) and (max-width:770px) {
+ .back{
+    height: 270rem;
+ }
+}
+@media (min-width:771px) and (max-width:991px) {
+ .back{
+    height: 150rem;
+ }
+}
+/* @media screen and (max-width:999px){
+.back{
+    height: 150rem;
+}
+}
+@media screen and (max-width:551px){
+  .back{
+    height: 200rem;
+  }
+} */
+
+

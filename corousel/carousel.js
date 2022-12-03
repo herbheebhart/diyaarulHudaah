@@ -32,7 +32,7 @@ $(".img_slider1 ").owlCarousel({
       },
       1240:{
           items:4,
-          dots:true
+          dots:false
       }
     }
 });
@@ -73,7 +73,7 @@ $(".img_slider2 ").owlCarousel({
       },
       1240:{
           items:1,
-          dots:true
+          dots:false
       }
     }
 });

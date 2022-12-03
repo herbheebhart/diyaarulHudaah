@@ -1,5 +1,5 @@
 const countDown = ()=>{
-    const countDate = new Date("october 30, 2022 00:00:00").getTime()
+    const countDate = new Date("December 30, 2022 00:00:00").getTime()
     const current = new Date()
     // You can set the counter by subtrating future times from current 
     const gap =countDate - current
@@ -17,14 +17,14 @@ const countDown = ()=>{
 
     // Dom
     document.querySelector('.day').innerHTML =textSpace;
-    document.querySelector('.hour').innerHTML =formatTime(textHour)
-    document.querySelector('.min').innerHTML =formatTime(textMin)
-    document.querySelector('.sec').innerHTML =formatTime(textSec)
+    document.querySelector('.hour').innerHTML =textHour;
+    document.querySelector('.min').innerHTML =textMin;
+    document.querySelector('.sec').innerHTML =textSec;
 
 }
-function formatTime(time){
-    return time < 10 ? `0${time}`:time;
-}
+// function formatTime(time){
+//     return time < 10 ? `0${time}`:time;
+// }
 setInterval(countDown, 1000);
 // FAQ
 const faq = document.querySelectorAll('.faq')
@@ -75,4 +75,31 @@ openModal.onclick = function(){
 }
 closeModal.onclick = function(){
   formPop.style.display = "none"
+}
+  //  Back to top Button code 
+
+
+
+
+  // Back to top Script 
+
+
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the  button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
